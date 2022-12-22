@@ -8885,16 +8885,16 @@ button:focus {
 
 .btn.btn-primary:hover {
   color: #fff;
-  background-color: #498136;
-  border-color: #701c7e;
+  background-color: #77A85A;
+  border-color: #77A85A;
 }
 
 .btn.btn-primary:focus,
 .btn.btn-primary.focus,
 .btn.btn-primary:hover {
   color: #fff;
-  background-color: #498136;
-  border-color: #701c7e;
+  background-color: #77A85A;
+  border-color: #77A85A;
 }
 
 .btn.btn-primary:active,
@@ -22315,7 +22315,7 @@ select.selectpicker {
 }
 
 .title-hero{
-  color: #785E60!important;
+  color: #77A85A!important;
 }
 
 .card-hero{
@@ -22337,8 +22337,13 @@ select.selectpicker {
 .mt-lg-7 {
   margin-top: 6rem !important;
 }
+.btn-send{
+  background-color: #77A85A!important;
+  border-color: #77A85A!important;
+}
 @media (max-width: 768px){
   .btn-send{
+    
     margin-top: 15px!important;
   }
 }

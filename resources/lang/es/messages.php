@@ -18,7 +18,7 @@ return [
     'infotitulo' => 'Inversión segura',
     'infosubtitulo' => 'Propiedad privada, libre de gravamen y uso de suelo mixto',
     'infotitulo2' => 'A mediano plazo',
-    'infosubtitulo2' => 'Entrega en 24 meses con calles de terracería y mojoneras.',
+    'infosubtitulo2' => 'Entrega en 24 meses con calles compactadas y mojoneras.',
     'infotitulo3' => 'Tecnologías ecológicas',
     'infosubtitulo3' => 'Lotes con paquetes de energías sustentables.',
     'infotitulo4' => 'Escrituración inmediata',

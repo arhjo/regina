@@ -436,7 +436,7 @@
                                 <div class="col-12 text-center">
                                     <h5 class="">{{ __('messages.preciodes') }}</h5>
                                     <input class="" type="radio" name="locationProperty" id="locationProperty1"
-                                        value="497869" checked hidden />
+                                        value="2572258" checked hidden />
                                     <h2 class="" style="color: #34504b; font-size: 30px" id="price">
                                         Seleccione Ubicación
                                     </h2>

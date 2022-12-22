@@ -1,9 +1,9 @@
-<p align="center"><a href="https://aactunha.landrada.mx" target="_blank"><img src="https://aactunha.landrada.mx/img/Aactun_ha_Black.png" width="400"></a></p>
+<p align="center"><a href="https://reginaestilodevida.mx" target="_blank"><img src="https://reginaestilodevida.mx/img/logo-regina.png" width="400"></a></p>
 
 
 
-## About A’actun-ha’
+## About Regina Nivel de vida a tu Altura
 
 
-<h1>A’actun-ha’, lotes urbanizados</h1>
-<p>Desarrollo residencial ubicado en el municipio de Tetiz, Yucatán. Con los servicios básicos a pie de lote.</p>
+<h1>Regina, lotes semiurbanizados</h1>
+<p>Tu hogar está en el municipio de Lázaro Cárdenas, cerca de la estación del Tren Maya, Nuevo Xcan, y de majestuosas lagunas. Vive en un lugar exclusivo y en armonía con la naturaleza.</p>

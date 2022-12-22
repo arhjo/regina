@@ -1,0 +1,20 @@
+@font-face {
+    font-family: VerdanaPro-Regular;
+    src: url(/fonts/verdana/VerdanaPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: Times-New-Normal;
+    src: url(/fonts/Times_New_Normal_Regular.ttf);
+}
+
+body {
+    font-family: 'VerdanaPro-Regular'!important;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Times-New-Normal'!important;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+    color: #77A85A
+}

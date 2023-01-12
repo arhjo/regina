@@ -20,7 +20,7 @@ return [
     'infotitulo2' => 'A mediano plazo',
     'infosubtitulo2' => 'Entrega en 24 meses con calles compactadas y mojoneras.',
     'infotitulo3' => 'Tecnologías ecológicas',
-    'infosubtitulo3' => 'Lotes con paquetes de energías sustentables.',
+    'infosubtitulo3' => 'Lotes con tecnologías ecológicas para el cuidado del medio ambiente.',
     'infotitulo4' => 'Escrituración inmediata',
     'infosubtitulo4' => 'Paga de contado y cumple tus objetivos.',
     'conocenos' => 'Conócenos',

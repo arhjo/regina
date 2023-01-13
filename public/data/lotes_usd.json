@@ -1,0 +1,634 @@
+{
+  "categories": [
+      {
+          "title": "Vendido",
+          "id": "vendido",
+          "about": "",
+          "style": "sold",
+          "legend": "true",
+          "color": "rgba(238,14,14,1)"
+      },
+      {
+          "title": "Disponible",
+          "id": "disponible",
+          "about": "",
+          "style": "default",
+          "color": "#843e0a",
+          "legend": "true"
+      }
+  ],
+  "styles": [
+      {
+          "base": {
+              "fill": "#42210b"
+          },
+          "hover": {
+              "fill": "#0c7c05"
+          },
+          "active": {
+              "fill": "#7aa855"
+          },
+          "class": "default"
+      },
+      {
+          "base": {
+              "fill": "rgba(238,14,14,0.5)"
+          },
+          "hover": {
+              "fill": "rgb(234, 117, 117,1)"
+          },
+          "active": {
+              "fill": "#ea7575"
+          },
+          "class": "sold"
+      },
+      {
+          "base": {
+              "fill": "rgba(255,221,51,0.9)"
+          },
+          "hover": {
+              "fill": "rgba(234,194,140,0.8)"
+          },
+          "active": {
+              "fill": "rgba(255,221,51,0.9)"
+          },
+          "class": "reserved"
+      }
+  ],
+  "levels": [
+      {
+          "id": "CAPA",
+          "title": "Lotes",
+          "map": "data/MAPA_LOTES_R.svg",
+          "map-min": "data/MAPA_LOTES_R.svg",
+          "locations": [
+            {
+              "id": "LT-1",
+              "title": "Lote 1",
+              "pin": "hidden",
+              "about": "Lote 1 | Superficie: 989.32 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>989.32 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $75,682.98 USD</option><option value=''>18 MSI - $89,038.80 USD</option><option value=''>24 MSI - $97,942.68 USD</option><option value=''>36 MSI - $107,736.95 USD</option><option value=''>48 MSI - $118,510.64 USD</option><option value=''>60 MSI - $128,611.60 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4642,
+              "y": 0.0185,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-2",
+              "title": "Lote 2",
+              "pin": "hidden",
+              "about": "Lote 2 | Superficie: 989.33 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>989.33 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $75,683.75 USD</option><option value=''>18 MSI - $89,039.70 USD</option><option value=''>24 MSI - $97,943.67 USD</option><option value=''>36 MSI - $107,738.04 USD</option><option value=''>48 MSI - $118,511.84 USD</option><option value=''>60 MSI - $128,612.90 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4686,
+              "y": 0.0441,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-3",
+              "title": "Lote 3",
+              "pin": "hidden",
+              "about": "Lote 3 | Superficie: 989.33 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>989.33 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $75,683.75 USD</option><option value=''>18 MSI - $89,039.70 USD</option><option value=''>24 MSI - $97,943.67 USD</option><option value=''>36 MSI - $107,738.04 USD</option><option value=''>48 MSI - $118,511.84 USD</option><option value=''>60 MSI - $128,612.90 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4695,
+              "y": 0.0677,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-4",
+              "title": "Lote 4",
+              "pin": "hidden",
+              "about": "Lote 4 | Superficie: 807.17 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>807.17 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $61,748.51 USD</option><option value=''>18 MSI - $72,645.30 USD</option><option value=''>24 MSI - $79,909.83 USD</option><option value=''>36 MSI - $87,900.81 USD</option><option value=''>48 MSI - $96,690.89 USD</option><option value=''>60 MSI - $104,932.10 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4787,
+              "y": 0.0942,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-5",
+              "title": "Lote 5",
+              "pin": "hidden",
+              "about": "Lote 5 | Superficie: 800.72 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>800.72 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $61,255.08 USD</option><option value=''>18 MSI - $72,064.80 USD</option><option value=''>24 MSI - $79,271.28 USD</option><option value=''>36 MSI - $87,198.41 USD</option><option value=''>48 MSI - $95,918.25 USD</option><option value=''>60 MSI - $104,093.60 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4828,
+              "y": 0.1221,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-6",
+              "title": "Lote 6",
+              "pin": "hidden",
+              "about": "Lote 6 | Superficie: 800.49 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>800.49 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $61,237.49 USD</option><option value=''>18 MSI - $72,044.10 USD</option><option value=''>24 MSI - $79,248.51 USD</option><option value=''>36 MSI - $87,173.36 USD</option><option value=''>48 MSI - $95,890.70 USD</option><option value=''>60 MSI - $104,063.70 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.49,
+              "y": 0.1554,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-7",
+              "title": "Lote 7",
+              "pin": "hidden",
+              "about": "Lote 7 | Superficie: 803.46 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>803.46 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $61464.69 USD</option><option value=''>18 MSI - $72311.4 USD</option><option value=''>24 MSI - $79542.54 USD</option><option value=''>36 MSI - $87496.79 USD</option><option value=''>48 MSI - $96246.47 USD</option><option value=''>60 MSI - $104449.8 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4997,
+              "y": 0.1931,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-8",
+              "title": "Lote 8",
+              "pin": "hidden",
+              "about": "Lote 8 | Superficie: 805.05 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>805.05 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $61586.33 USD</option><option value=''>18 MSI - $72454.5 USD</option><option value=''>24 MSI - $79699.95 USD</option><option value=''>36 MSI - $87669.95 USD</option><option value=''>48 MSI - $96436.94 USD</option><option value=''>60 MSI - $104656.5 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.5086,
+              "y": 0.2386,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-9",
+              "title": "Lote 9",
+              "pin": "hidden",
+              "about": "Lote 9 | Superficie: 706.52 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>706.52 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $54048.78 USD</option><option value=''>18 MSI - $63586.8 USD</option><option value=''>24 MSI - $69945.48 USD</option><option value=''>36 MSI - $76940.03 USD</option><option value=''>48 MSI - $84634.03 USD</option><option value=''>60 MSI - $91847.6 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4855,
+              "y": 0.3012,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-10",
+              "title": "Lote 10",
+              "pin": "hidden",
+              "about": "Lote 10 | Superficie: 687.39 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>687.39 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $52585.34 USD</option><option value=''>18 MSI - $61865.1 USD</option><option value=''>24 MSI - $68051.61 USD</option><option value=''>36 MSI - $74856.77 USD</option><option value=''>48 MSI - $82342.45 USD</option><option value=''>60 MSI - $89360.7 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4846,
+              "y": 0.3241,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-11",
+              "title": "Lote 11",
+              "pin": "hidden",
+              "about": "Lote 11 | Superficie: 753.84 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>753.84 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $57668.76 USD</option><option value=''>18 MSI - $67845.6 USD</option><option value=''>24 MSI - $74630.16 USD</option><option value=''>36 MSI - $82093.18 USD</option><option value=''>48 MSI - $90302.49 USD</option><option value=''>60 MSI - $97999.2 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4837,
+              "y": 0.3476,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-12",
+              "title": "Lote 12",
+              "pin": "hidden",
+              "about": "Lote 12 | Superficie: 791.7 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>791.7 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $60565.05 USD</option><option value=''>18 MSI - $71253 USD</option><option value=''>24 MSI - $78378.3 USD</option><option value=''>36 MSI - $86216.13 USD</option><option value=''>48 MSI - $94837.74 USD</option><option value=''>60 MSI - $102921 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4739,
+              "y": 0.3684,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-13",
+              "title": "Lote 13",
+              "pin": "hidden",
+              "about": "Lote 13 | Superficie: 791.7 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>791.7 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $60565.05 USD</option><option value=''>18 MSI - $71253 USD</option><option value=''>24 MSI - $78378.3 USD</option><option value=''>36 MSI - $86216.13 USD</option><option value=''>48 MSI - $94837.74 USD</option><option value=''>60 MSI - $102921 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4775,
+              "y": 0.3879,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-14",
+              "title": "Lote 14",
+              "pin": "hidden",
+              "about": "Lote 14 | Superficie: 791.71 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>791.71 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $60565.82 USD</option><option value=''>18 MSI - $71253.9 USD</option><option value=''>24 MSI - $78379.29 USD</option><option value=''>36 MSI - $86217.22 USD</option><option value=''>48 MSI - $94838.94 USD</option><option value=''>60 MSI - $102922.3 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4802,
+              "y": 0.4087,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-15",
+              "title": "Lote 15",
+              "pin": "hidden",
+              "about": "Lote 15 | Superficie: 791.69 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>791.69 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $60564.29 USD</option><option value=''>18 MSI - $71252.1 USD</option><option value=''>24 MSI - $78377.31 USD</option><option value=''>36 MSI - $86215.04 USD</option><option value=''>48 MSI - $94836.55 USD</option><option value=''>60 MSI - $102919.7 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.48,
+              "y": 0.4326,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-16",
+              "title": "Lote 16",
+              "pin": "hidden",
+              "about": "Lote 16 | Superficie: 595.48 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>595.48 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $45554.22 USD</option><option value=''>18 MSI - $53593.2 USD</option><option value=''>24 MSI - $58952.52 USD</option><option value=''>36 MSI - $64847.77 USD</option><option value=''>48 MSI - $71332.55 USD</option><option value=''>60 MSI - $77412.4 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4793,
+              "y": 0.4555,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-17",
+              "title": "Lote 17",
+              "pin": "hidden",
+              "about": "Lote 17 | Superficie: 594.66 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>594.66 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $45491.49 USD</option><option value=''>18 MSI - $53519.4 USD</option><option value=''>24 MSI - $58871.34 USD</option><option value=''>36 MSI - $64758.47 USD</option><option value=''>48 MSI - $71234.32 USD</option><option value=''>60 MSI - $77305.8 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4775,
+              "y": 0.4716,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-18",
+              "title": "Lote 18",
+              "pin": "hidden",
+              "about": "Lote 18 | Superficie: 594.44 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>594.44 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $45474.66 USD</option><option value=''>18 MSI - $53499.6 USD</option><option value=''>24 MSI - $58849.56 USD</option><option value=''>36 MSI - $64734.52 USD</option><option value=''>48 MSI - $71207.97 USD</option><option value=''>60 MSI - $77277.2 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4775,
+              "y": 0.4878,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-19",
+              "title": "Lote 19",
+              "pin": "hidden",
+              "about": "Lote 19 | Superficie: 594.41 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>594.41 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $45472.37 USD</option><option value=''>18 MSI - $53496.9 USD</option><option value=''>24 MSI - $58846.59 USD</option><option value=''>36 MSI - $64731.25 USD</option><option value=''>48 MSI - $71204.37 USD</option><option value=''>60 MSI - $77273.3 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4775,
+              "y": 0.506,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-20",
+              "title": "Lote 20",
+              "pin": "hidden",
+              "about": "Lote 20 | Superficie: 594.38 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>594.38 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $45470.07 USD</option><option value=''>18 MSI - $53494.2 USD</option><option value=''>24 MSI - $58843.62 USD</option><option value=''>36 MSI - $64727.98 USD</option><option value=''>48 MSI - $71200.78 USD</option><option value=''>60 MSI - $77269.4 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4739,
+              "y": 0.5229,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-21",
+              "title": "Lote 21",
+              "pin": "hidden",
+              "about": "Lote 21 | Superficie: 594.38 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>594.38 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $45470.07 USD</option><option value=''>18 MSI - $53494.2 USD</option><option value=''>24 MSI - $58843.62 USD</option><option value=''>36 MSI - $64727.98 USD</option><option value=''>48 MSI - $71200.78 USD</option><option value=''>60 MSI - $77269.4 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4766,
+              "y": 0.5394,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-22",
+              "title": "Lote 22",
+              "pin": "hidden",
+              "about": "Lote 22 | Superficie: 594.32 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>594.32 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $45465.48 USD</option><option value=''>18 MSI - $53488.8 USD</option><option value=''>24 MSI - $58837.68 USD</option><option value=''>36 MSI - $64721.45 USD</option><option value=''>48 MSI - $71193.59 USD</option><option value=''>60 MSI - $77261.6 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4748,
+              "y": 0.5526,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-23",
+              "title": "Lote 23",
+              "pin": "hidden",
+              "about": "Lote 23 | Superficie: 647.84 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>647.84 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $49559.76 USD</option><option value=''>18 MSI - $58305.6 USD</option><option value=''>24 MSI - $64136.16 USD</option><option value=''>36 MSI - $70549.78 USD</option><option value=''>48 MSI - $77604.75 USD</option><option value=''>60 MSI - $84219.2 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4775,
+              "y": 0.577,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-24",
+              "title": "Lote 24",
+              "pin": "hidden",
+              "about": "Lote 24 | Superficie: 647.84 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>647.84 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $49559.76 USD</option><option value=''>18 MSI - $58305.6 USD</option><option value=''>24 MSI - $64136.16 USD</option><option value=''>36 MSI - $70549.78 USD</option><option value=''>48 MSI - $77604.75 USD</option><option value=''>60 MSI - $84219.2 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.473,
+              "y": 0.5942,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-25",
+              "title": "Lote 25",
+              "pin": "hidden",
+              "about": "Lote 25 | Superficie: 647.82 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>647.82 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $49558.23 USD</option><option value=''>18 MSI - $58303.8 USD</option><option value=''>24 MSI - $64134.18 USD</option><option value=''>36 MSI - $70547.6 USD</option><option value=''>48 MSI - $77602.36 USD</option><option value=''>60 MSI - $84216.6 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4739,
+              "y": 0.6116,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-26",
+              "title": "Lote 26",
+              "pin": "hidden",
+              "about": "Lote 26 | Superficie: 647.8 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>647.8 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $49556.7 USD</option><option value=''>18 MSI - $58302 USD</option><option value=''>24 MSI - $64132.2 USD</option><option value=''>36 MSI - $70545.42 USD</option><option value=''>48 MSI - $77599.96 USD</option><option value=''>60 MSI - $84214 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4739,
+              "y": 0.629,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-27",
+              "title": "Lote 27",
+              "pin": "hidden",
+              "about": "Lote 27 | Superficie: 614.59 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>614.59 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $47016.14 USD</option><option value=''>18 MSI - $55313.1 USD</option><option value=''>24 MSI - $60844.41 USD</option><option value=''>36 MSI - $66928.85 USD</option><option value=''>48 MSI - $73621.74 USD</option><option value=''>60 MSI - $79896.7 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4793,
+              "y": 0.6534,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-28",
+              "title": "Lote 28",
+              "pin": "hidden",
+              "about": "Lote 28 | Superficie: 614.59 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>614.59 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $47016.14 USD</option><option value=''>18 MSI - $55313.1 USD</option><option value=''>24 MSI - $60844.41 USD</option><option value=''>36 MSI - $66928.85 USD</option><option value=''>48 MSI - $73621.74 USD</option><option value=''>60 MSI - $79896.7 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4726,
+              "y": 0.6655,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-29",
+              "title": "Lote 29",
+              "pin": "hidden",
+              "about": "Lote 29 | Superficie: 614.59 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>614.59 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $47016.14 USD</option><option value=''>18 MSI - $55313.1 USD</option><option value=''>24 MSI - $60844.41 USD</option><option value=''>36 MSI - $66928.85 USD</option><option value=''>48 MSI - $73621.74 USD</option><option value=''>60 MSI - $79896.7 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4718,
+              "y": 0.6815,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-30",
+              "title": "Lote 30",
+              "pin": "hidden",
+              "about": "Lote 30 | Superficie: 614.59 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>614.59 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $47016.14 USD</option><option value=''>18 MSI - $55313.1 USD</option><option value=''>24 MSI - $60844.41 USD</option><option value=''>36 MSI - $66928.85 USD</option><option value=''>48 MSI - $73621.74 USD</option><option value=''>60 MSI - $79896.7 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4718,
+              "y": 0.698,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-31",
+              "title": "Lote 31",
+              "pin": "hidden",
+              "about": "Lote 31 | Superficie: 614.59 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>614.59 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $47016.14 USD</option><option value=''>18 MSI - $55313.1 USD</option><option value=''>24 MSI - $60844.41 USD</option><option value=''>36 MSI - $66928.85 USD</option><option value=''>48 MSI - $73621.74 USD</option><option value=''>60 MSI - $79896.7 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4716,
+              "y": 0.7399,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-32",
+              "title": "Lote 32",
+              "pin": "hidden",
+              "about": "Lote 32 | Superficie: 654.27 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>654.27 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $50051.66 USD</option><option value=''>18 MSI - $58884.3 USD</option><option value=''>24 MSI - $64772.73 USD</option><option value=''>36 MSI - $71250 USD</option><option value=''>48 MSI - $78375 USD</option><option value=''>60 MSI - $85055.1 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4707,
+              "y": 0.7524,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-33",
+              "title": "Lote 33",
+              "pin": "hidden",
+              "about": "Lote 33 | Superficie: 654.06 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>654.06 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $50035.59 USD</option><option value=''>18 MSI - $58865.4 USD</option><option value=''>24 MSI - $64751.94 USD</option><option value=''>36 MSI - $71227.13 USD</option><option value=''>48 MSI - $78349.85 USD</option><option value=''>60 MSI - $85027.8 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4716,
+              "y": 0.7646,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-34",
+              "title": "Lote 34",
+              "pin": "hidden",
+              "about": "Lote 34 | Superficie: 654.06 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>654.06 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $50035.59 USD</option><option value=''>18 MSI - $58865.4 USD</option><option value=''>24 MSI - $64751.94 USD</option><option value=''>36 MSI - $71227.13 USD</option><option value=''>48 MSI - $78349.85 USD</option><option value=''>60 MSI - $85027.8 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4698,
+              "y": 0.7798,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-35",
+              "title": "Lote 35",
+              "pin": "hidden",
+              "about": "Lote 35 | Superficie: 654.06 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>654.06 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $50035.59 USD</option><option value=''>18 MSI - $58865.4 USD</option><option value=''>24 MSI - $64751.94 USD</option><option value=''>36 MSI - $71227.13 USD</option><option value=''>48 MSI - $78349.85 USD</option><option value=''>60 MSI - $85027.8 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4707,
+              "y": 0.7956,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-36",
+              "title": "Lote 36",
+              "pin": "hidden",
+              "about": "Lote 36 | Superficie: 653.85 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>653.85 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $50019.53 USD</option><option value=''>18 MSI - $58846.5 USD</option><option value=''>24 MSI - $64731.15 USD</option><option value=''>36 MSI - $71204.27 USD</option><option value=''>48 MSI - $78324.69 USD</option><option value=''>60 MSI - $85000.5 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4689,
+              "y": 0.7958,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-37",
+              "title": "Lote 37",
+              "pin": "hidden",
+              "about": "Lote 37 | Superficie: 694.41 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>694.41 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $53122.37 USD</option><option value=''>18 MSI - $62496.9 USD</option><option value=''>24 MSI - $68746.59 USD</option><option value=''>36 MSI - $75621.25 USD</option><option value=''>48 MSI - $83183.37 USD</option><option value=''>60 MSI - $90273.3 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4751,
+              "y": 0.8231,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-38",
+              "title": "Lote 38",
+              "pin": "hidden",
+              "about": "Lote 38 | Superficie: 694.41 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>694.41 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $53122.37 USD</option><option value=''>18 MSI - $62496.9 USD</option><option value=''>24 MSI - $68746.59 USD</option><option value=''>36 MSI - $75621.25 USD</option><option value=''>48 MSI - $83183.37 USD</option><option value=''>60 MSI - $90273.3 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4663,
+              "y": 0.8374,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-39",
+              "title": "Lote 39",
+              "pin": "hidden",
+              "about": "Lote 39 | Superficie: 694.41 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>694.41 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $53122.37 USD</option><option value=''>18 MSI - $62496.9 USD</option><option value=''>24 MSI - $68746.59 USD</option><option value=''>36 MSI - $75621.25 USD</option><option value=''>48 MSI - $83183.37 USD</option><option value=''>60 MSI - $90273.3 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4698,
+              "y": 0.8503,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-40",
+              "title": "Lote 40",
+              "pin": "hidden",
+              "about": "Lote 40 | Superficie: 694.41 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>694.41 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $53122.37 USD</option><option value=''>18 MSI - $62496.9 USD</option><option value=''>24 MSI - $68746.59 USD</option><option value=''>36 MSI - $75621.25 USD</option><option value=''>48 MSI - $83183.37 USD</option><option value=''>60 MSI - $90273.3 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4689,
+              "y": 0.8628,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-41",
+              "title": "Lote 41",
+              "pin": "hidden",
+              "about": "Lote 41 | Superficie: 694.41 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>694.41 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $53122.37 USD</option><option value=''>18 MSI - $62496.9 USD</option><option value=''>24 MSI - $68746.59 USD</option><option value=''>36 MSI - $75621.25 USD</option><option value=''>48 MSI - $83183.37 USD</option><option value=''>60 MSI - $90273.3 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4716,
+              "y": 0.8782,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-42",
+              "title": "Lote 42",
+              "pin": "hidden",
+              "about": "Lote 42 | Superficie: 686.6 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>686.6 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $52,524.9 USD</option><option value=''>18 MSI - $61,794.00 USD</option><option value=''>24 MSI - $67,973.40 USD</option><option value=''>36 MSI - $74,770.74 USD</option><option value=''>48 MSI - $82,247.81 USD</option><option value=''>60 MSI - $89,258.00 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4751,
+              "y": 0.9102,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-43",
+              "title": "Lote 43",
+              "pin": "hidden",
+              "about": "Lote 43 | Superficie: 686.6 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>686.6 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $52,524.9 USD</option><option value=''>18 MSI - $61,794.00 USD</option><option value=''>24 MSI - $67,973.40 USD</option><option value=''>36 MSI - $74,770.74 USD</option><option value=''>48 MSI - $82,247.81 USD</option><option value=''>60 MSI - $89,258.00 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.47,
+              "y": 0.9249,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-44",
+              "title": "Lote 44",
+              "pin": "hidden",
+              "about": "Lote 44 | Superficie: 686.6 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>686.6 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $52,524.9 USD</option><option value=''>18 MSI - $61,794.00 USD</option><option value=''>24 MSI - $67,973.40 USD</option><option value=''>36 MSI - $74,770.74 USD</option><option value=''>48 MSI - $82,247.81 USD</option><option value=''>60 MSI - $89,258.00 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.47,
+              "y": 0.9397,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-45",
+              "title": "Lote 45",
+              "pin": "hidden",
+              "about": "Lote 45 | Superficie: 686.6 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>686.6 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $52,524.9 USD</option><option value=''>18 MSI - $61,794.00 USD</option><option value=''>24 MSI - $67,973.40 USD</option><option value=''>36 MSI - $74,770.74 USD</option><option value=''>48 MSI - $82,247.81 USD</option><option value=''>60 MSI - $89,258.00 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4709,
+              "y": 0.9521,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-46",
+              "title": "Lote 46",
+              "pin": "hidden",
+              "about": "Lote 46 | Superficie: 686.6 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>686.6 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $52,524.9 USD</option><option value=''>18 MSI - $61,794.00 USD</option><option value=''>24 MSI - $67,973.40 USD</option><option value=''>36 MSI - $74,770.74 USD</option><option value=''>48 MSI - $82,247.81 USD</option><option value=''>60 MSI - $89,258.00 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4727,
+              "y": 0.9644,
+              "image": "img/regina.jpg"
+            },
+            {
+              "id": "LT-47",
+              "title": "Lote 47",
+              "pin": "hidden",
+              "about": "Lote 47 | Superficie: 686.6 m<sup>2</sup>",
+              "description": "<p>Superficie: <b>686.6 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>CONTADO - $52,524.9 USD</option><option value=''>18 MSI - $61,794.00 USD</option><option value=''>24 MSI - $67,973.40 USD</option><option value=''>36 MSI - $74,770.74 USD</option><option value=''>48 MSI - $82,247.81 USD</option><option value=''>60 MSI - $89,258.00 USD</option></select>",
+              "category": "disponible",
+              "link": "https://cotizador.landrada.mx/",
+              "x": 0.4727,
+              "y": 0.9781,
+              "image": "img/regina.jpg"
+            }
+          ]
+      }
+  ],
+  "mapheight": "3125",
+  "mapwidth": "625"
+}

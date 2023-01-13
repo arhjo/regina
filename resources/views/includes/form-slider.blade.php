@@ -1,5 +1,5 @@
 <div class="col-md-8 ml-auto mr-auto text-center">
-    <h1 class="title title-hero">El que cuida la naturaleza <br class="d-none d-lg-block" /> vive consciente y en armonía</h1>
+    <h1 class="title title-hero">{{__('messages.titulohero')}}</h1>
     <h4>{{__('messages.subhero')}}</h4>
 </div>
 <div class="col-md-10 ml-auto mr-auto">

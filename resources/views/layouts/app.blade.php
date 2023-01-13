@@ -121,7 +121,7 @@
                                     {{__('messages.compra')}}
                                 </a>
                             </li>
-                            {{-- <li class="nav-item dropdown">
+                            <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <img src="{{ asset('img/') }}/{{Config::get('languages')[App::getLocale()]['img']}}" alt="">
 
@@ -143,7 +143,7 @@
                                     @endforeach
 
                                 </div>
-                            </li> --}}
+                            </li>
 
                         </ul>
                     </div>

@@ -142,7 +142,7 @@
                                     </a>
                                 </li>
 
-                                {{-- <li class="nav-item dropdown ms-2">
+                                <li class="nav-item dropdown ms-2">
                                     <a class="nav-link dropdown-toggle p-0" href="#" id="navbarDropdownMenuLink"
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <img src="{{ asset('img/') }}/{{ Config::get('languages')[App::getLocale()]['img'] }}"
@@ -163,7 +163,7 @@
                                         @endforeach
 
                                     </div>
-                                </li> --}}
+                                </li>
 
                             </ul>
                         </div>

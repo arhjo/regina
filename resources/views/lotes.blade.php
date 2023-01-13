@@ -182,7 +182,7 @@
                             </a>
                         </li>
 
-                        {{-- <li class="nav-item dropdown ms-2">
+                        <li class="nav-item dropdown ms-2">
                             <a class="nav-link dropdown-toggle p-0" href="#" id="navbarDropdownMenuLink"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <img src="{{ asset('img/') }}/{{ Config::get('languages')[App::getLocale()]['img'] }}"
@@ -202,7 +202,7 @@
                                 @endforeach
 
                             </div>
-                        </li> --}}
+                        </li>
 
                     </ul>
                 </div>
@@ -323,7 +323,27 @@
     <script type="text/javascript" src="{{ asset('js/csvparser.js') }}"></script> <!-- Required for CSV Support -->
     <script type="text/javascript" src="{{ asset('js/magnific-popup.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/mapplic.js') }}"></script>
+    @if (Config::get('languages')[App::getLocale()]['display'] == 'English')
+        <script type="text/javascript">
+        
+            $(document).ready(function() {
+                var map = $('#mapplic').mapplic({
+                    source: 'data/lotes_usd.json',
+                    sidebar: true,
+                    height: '100%',
+                    minimao: false,
+                    maxheight: 9500,
+                    fullscreen: false,
+                    maxscale: 1.8,
+                    lightbox: true,
+                    developer: false,
+                    mapfill: true
+                });
+            });
+        </script>
+    @else 
     <script type="text/javascript">
+        
         $(document).ready(function() {
             var map = $('#mapplic').mapplic({
                 source: 'data/lotes.json',
@@ -339,5 +359,5 @@
             });
         });
     </script>
-    
+    @endif
 @endpush

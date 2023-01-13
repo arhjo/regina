@@ -7,7 +7,8 @@ return [
     'cotizar' => 'Cotizar',
     'pago' => 'Pago en línea',
     'verlotes' => 'Ver lotes',
-    'titulohero' => 'El que cuida la naturaleza vive consciente y en armonía',
+    'titulohero' => 'El que cuida la naturaleza
+    vive consciente y en armonía',
     'subhero' => 'Construye tu patrimonio en un espacio sustentable, cuidando los recursos que la zona ofrece y con un estilo de vida único',
     'nombre' => 'Nombre',
     'apellido' => 'Apellido',
@@ -26,28 +27,40 @@ return [
     'conocenos' => 'Conócenos',
     'conocenossub' => 'Descubre más de Regina Conscious Living',
     'verbrochure' => 'Ver Brochure',
+
     'icontitulo' => 'Acceso controlado',
     'iconsubtitulo' => 'Tu hogar en un entorno seguro',
+
     'icontitulo2' => 'Casa Club',
     'iconsubtitulo2' => 'Disfruta de espacio en común con tus seres queridos',
+
     'icontitulo3' => 'Alberca',
     'iconsubtitulo3' => 'Refréscate en nuestra área en común favorita',
+
     'icontitulo4' => 'Cancha de usos múltiples',
     'iconsubtitulo4' => 'Crea momentos divertidos y únicos',
+
     'icontitulo5' => 'Vivero',
     'iconsubtitulo5' => 'Dale vida a tu hogar con plantas de la región',
+
     'icontitulo6' => 'Área de Mascotas',
     'iconsubtitulo6' => 'Tu mejor amigo también merece un espacio especial',
+
     'icontitulo7' => 'Ciclovía',
     'iconsubtitulo7' => 'Un camino ideal para ejercitarte mientras disfrutas la vista',
+
     'icontitulo8' => 'Biodigestor',
     'iconsubtitulo8' => 'Tratamiento de aguas residuales que favorece al medio ambiente',
+
     'icontitulo9' => 'Paneles solares',
     'iconsubtitulo9' => 'Olvídate de las altas tarifas eléctricas',
+
     'icontitulo10' => 'Calentador de agua',
     'iconsubtitulo10' => 'Boiler solar que aprovecha el calor del sol para ahorrar gas',
+
     'icontitulo11' => 'Captación de agua pluvial',
     'iconsubtitulo11' => 'Alternativa eficiente para tener acceso al agua',
+
     'simulador' => 'Simulador de inversión',
     'preciodes' => 'Precio desde',
     'enganche' => 'Enganche:',
@@ -56,6 +69,7 @@ return [
     'contado' => 'De contado',
     'msi' => 'Meses sin intereses',
     'ejemplo' => 'Ejemplo con lote de 500 m2',
+    
     'rodeado' => 'Rodeado de maravillosas experiencias',
     'tulum' => 'Cenotes',
     'tulumsub' => 'Cercano al anillo de cenotes en Yucatán',
